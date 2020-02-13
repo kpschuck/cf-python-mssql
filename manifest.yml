@@ -1,0 +1,13 @@
+---
+applications:
+- name: python-mssql
+  command: python app.py
+  memory: 128MB
+  disk_quota: 256MB
+  buildpacks:
+  - https://github.com/cloudfoundry/apt-buildpack
+  - python_buildpack
+  env:
+    ACCEPT_EULA: Y
+  services:
+  - mssql-service

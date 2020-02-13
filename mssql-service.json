@@ -1,0 +1,6 @@
+{
+  "server": "HOSTNAME_OR_IP",
+  "database": "DATABASE_NAME",
+  "username": "USERNAME",
+  "password": "PASSWORD"
+}
